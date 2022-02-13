@@ -16,15 +16,15 @@ El objetivo de este curso es que al finalizar el curso el estudiante comprenda l
 
 ### Secciones
 
-- Asincronía
-- Entorno del proyecto
-- HTML & CSS (opcional)
-- Modelo cliente-servidor
-- JSON & XML
-- Fetch & Promesas
-- Finalizando proyecto
-- Historia y actualidad de AJAX (opcional)
-- Conclusión
+- [Asincronía](#secci%C3%B3n-2)
+- [Entorno del proyecto](#secci%C3%B3n-3)
+- [HTML & CSS](#secci%C3%B3n-4) (opcional)
+- [Modelo cliente-servidor](#secci%C3%B3n-5)
+- [JSON & XML](#secci%C3%B3n-6)
+- [Fetch & Promesas](#secci%C3%B3n-7)
+- [Finalizando proyecto](#secci%C3%B3n-8)
+- [Historia y actualidad de AJAX](#secci%C3%B3n-9) (opcional)
+- [Conclusión](#secci%C3%B3n-10)
 
 ### ¿Qué es AJAX?
 
