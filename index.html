@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.cdnfonts.com/css/wonder-boy-in-monster-world" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script defer src="./scripts/index.js"></script>
+    <title>AJAX Project</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/poke-logo.svg" alt="Logo de Pokemon">
+    </header>
+    <main>
+        <form id="poke-form">
+            <h1>Search a Pokemon</h1>
+            <article class="form-center">
+                <input autocomplete="off" id="poke-input" type="text" placeholder="Write here...">
+                <button type="submit">
+                    Search
+                </button>
+            </article>
+        </form>
+        <section>
+            <figure>
+                <img id="poke-sprite" class="poke-sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="Pokemon sprite">
+                <figcaption id="poke-name">Any Pokemon</figcaption>
+            </figure>
+            <article id="poke-types" class="poke-types">
+            </article>
+        </section>
+    </main>
+</body>
+</html>

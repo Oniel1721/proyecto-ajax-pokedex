@@ -1,0 +1,271 @@
+/* Variables */
+
+:root{
+    --primary: #03caef;
+    --secondary: #45b45f;
+    --black: #232323;
+    --white: #dfdedf;
+}
+
+/* Global */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Estilos */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+}
+body{
+    min-height: 100vh;
+    max-width: 100vw;
+    letter-spacing: 0.2rem;
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    height: 100vh;
+    background-image: url("../assets/5818333.jpg");
+    background-position-x: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #23232350;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.logo{
+    max-height: 90%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    height: 90%;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: var(--black);
+    min-width: 26rem;
+    max-width: 50rem;
+    flex-grow: 1;
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+    min-height: 18rem;
+    max-height: 20rem;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.form-center{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+label{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--primary);
+
+}
+
+input{
+    background-color: var(--secondary);
+    color: var(--black);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    outline: none;
+    font-weight: bold;
+    width: 100%;
+}
+
+input::placeholder{
+    color: #23232399;
+}
+
+button{
+    margin-top: 1rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--primary);
+    transition: filter ease 0.3s;
+    width: 100%;
+}
+
+button:hover{
+    filter: brightness(90%);
+}
+
+section{
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+    background-color: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    min-width: 25rem;
+    min-height: 21rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary);
+    color: var(--white);
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+figure{
+    border-radius: 0.5rem;
+    flex-grow: 1;
+    overflow: hidden;
+    
+}
+
+figcaption {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.poke-sprite{
+    width: 100%;
+    min-height: 12rem;
+}
+
+.poke-types{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    padding: 0.5rem;
+}
+
+.type{
+    font-weight: bold;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 13rem;
+    min-width: 13rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/* Tipos */
+.type-normal{
+    background-color: #aa9;
+}
+
+.type-fire {
+    background-color: #f42;
+}
+
+.type-water {
+    background-color: #39f;
+}
+
+.type-electric {
+    background-color: #fc3;
+}
+
+.type-grass {
+    background-color: #7c5;
+}
+
+.type-ice {
+    background-color: #6cf;
+}
+
+.type-fighting {
+    background-color: #b54;
+}
+
+.type-poison {
+    background-color: #a59;
+}
+
+.type-ground {
+    background-color: #db5;
+}
+
+.type-flying {
+    background-color: #89f;
+}
+
+.type-psychic {
+    background-color: #f59;
+}
+
+.type-bug {
+    background-color: #ab2;
+}
+
+.type-rock {
+    background-color: #ba6;
+}
+
+.type-ghost {
+    background-color: #66b;
+}
+
+.type-dragon {
+    background-color: #76e;
+}
+
+.type-dark {
+    background-color: #754;
+}
+
+.type-steel {
+    background-color: #aab;
+}
+
+.type-fairy {
+    background-color: #e9e;
+}
